@@ -5,8 +5,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Dictionary />
+      <div className="container app-box">
+        <main>
+          <Dictionary />
+        </main>
         <footer>
           This project was coded by Roberta O. It is open-sourced on{" "}
           <a

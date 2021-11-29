@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Dictionary.css";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState(null);
@@ -19,7 +20,7 @@ export default function Dictionary() {
         <input
           type="search"
           autoFocus={true}
-          placeholder="Please enter the word you would like defined here"
+          placeholder="Search any word here"
           onChange={handleKeywordChange}
         />
       </form>
