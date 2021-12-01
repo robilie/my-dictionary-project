@@ -1,0 +1,8 @@
+.Results {
+  display: block;
+  margin: 30px auto;
+  border-radius: 16px;
+  padding: 15px 25px;
+  background-color: rgba(146, 141, 141, 0.6);
+  color: red;
+}
