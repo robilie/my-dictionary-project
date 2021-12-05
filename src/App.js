@@ -5,9 +5,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <h1> Dictionary</h1>
       <div className="container app-box">
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
           This project was coded by Roberta O. It is open-sourced on{" "}
