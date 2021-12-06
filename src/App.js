@@ -27,6 +27,12 @@ function App() {
           >
             Netlify
           </a>
+          <p className="pexels-link">
+            Photos provided by{" "}
+            <a href="https://www.pexels.com" target="_blank" rel="noreferrer">
+              Pexels
+            </a>
+          </p>
         </footer>
       </div>
     </div>

@@ -1,0 +1,13 @@
+.Photos {
+  display: block;
+  margin: 30px auto;
+  border-radius: 16px;
+  padding: 15px 25px;
+  background-color: rgba(252, 252, 252, 0.8);
+  color: rgb(56, 47, 47);
+}
+
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
