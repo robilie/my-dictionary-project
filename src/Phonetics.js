@@ -2,7 +2,6 @@ import React from "react";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
-  console.log(props.phonetics[0].text);
   return (
     <div className="Phonetics">
       <p className="text">{props.phonetics[0].text}</p>
